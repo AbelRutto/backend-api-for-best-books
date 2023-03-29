@@ -4,7 +4,7 @@ This API is a simple web API where you make CRUD calls to a server to organize a
 
 ## Front-end Interface
 
-You can use this API in conjunction with my front-end book club app [see the repo](https://github.com/christine-contreras/project-bestbooks-client)
+You can use this API in conjunction with my front-end book club app [see the repo]
 
 ## Technologies Used in API
 
@@ -155,9 +155,9 @@ fetch('/api/me').then((response) => {
 {
 id: 1,
 email: "email@yahoo.com",
-first_name: "Christine",
-last_name: "Contreras",
-full_name: "Christine Contreras",
+first_name: "Group 19",
+last_name: "Kenya",
+full_name: "Group 19 Kenya",
 location: "",
 profile_color: "#e91e63",
 bookclubs: [
@@ -167,16 +167,16 @@ name: "Bookies",
 admin: {
 id: 1,
 email: "email@yahoo.com",
-first_name: "Christine",
-last_name: "Contreras"
+first_name: "Group 19",
+last_name: "Kenya"
 },
 users: [
 {
 id: 1,
 email: "email@yahoo.com",
-first_name: "Christine",
-last_name: "Contreras",
-full_name: "Christine Contreras",
+first_name: "Group 19",
+last_name: "Kenya",
+full_name: "Group 19 Kenya",
 location: "",
 profile_color: "#e91e63"
 }
@@ -189,7 +189,7 @@ bookclub_id: 1,
 status: "In Progress",
 archived: false,
 current: true,
-suggested_by: "Christine Contreras",
+suggested_by: "Group 19 Kenya",
 book: {
 id: 1,
 title: "Dune",
@@ -252,7 +252,7 @@ bookclub_id: 1,
 status: "Not Started",
 archived: false,
 current: false,
-suggested_by: "Christine Contreras",
+suggested_by: "Group 19 Kenya",
 book: {
 id: 2,
 title: "Brain Rules: 12 Principles for Surviving and Thriving at Work, Home, and School",
@@ -286,16 +286,16 @@ name: "The Best Book Club",
 admin: {
 id: 1,
 email: "email@yahoo.com",
-first_name: "Christine",
-last_name: "Contreras"
+first_name: "Group 19",
+last_name: "Kenya"
 },
 users: [
 {
 id: 1,
 email: "email@yahoo.com",
-first_name: "Christine",
-last_name: "Contreras",
-full_name: "Christine Contreras",
+first_name: "Group 19",
+last_name: "Kenya",
+full_name: "Group 19 Kenya",
 location: "",
 profile_color: "#e91e63"
 }
@@ -363,16 +363,16 @@ fetch('/api/bookclubs', {
       admin: {
         id: 1,
         email: 'email@yahoo.com',
-        first_name: 'Christine',
-        last_name: 'Contreras',
+        first_name: 'Group 19',
+        last_name: 'Kenya',
       },
       users: [
         {
           id: 1,
           email: 'email@yahoo.com',
-          first_name: 'Christine',
-          last_name: 'Contreras',
-          full_name: 'Christine Contreras',
+          first_name: 'Group 19',
+          last_name: 'Kenya',
+          full_name: 'Group 19 Kenya',
           location: '',
           profile_color: '#e91e63',
         },
@@ -424,7 +424,7 @@ pages: [
 "1",
 "200"
 ],
-deadline: "2021-12-04",
+deadline: "2023-05-04",
 complete: false,
 notes: "",
 meetingURL: "#"
